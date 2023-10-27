@@ -4,8 +4,7 @@ chrome.storage.local.get(['url'], (result) => {
   result.url && (input.value = result.url);
 });
 
-document.querySelector('button').onclick = () => {
-  const newUrl = input.value;
-  chrome.storage.local.set({ url: newUrl });
+document.querySelector('form').onsubmit = () => {
+  chrome.storage.local.set({ url: input.value });
   window.close();
 };
