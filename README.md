@@ -1,3 +1,3 @@
-# [Your New Tab](https://chrome.google.com/webstore/detail/your-new-tab/dcdioppilifbdmgdacfnfobmlpaecgnm)
+# Your New Tab
 
-A simple chrome extension that replaces the default new tab page.
+A simple chrome extension that replaces the default new tab. [Download here](https://chrome.google.com/webstore/detail/your-new-tab/dcdioppilifbdmgdacfnfobmlpaecgnm)
