@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Your New Tab",
-  "version": "1.1",
-  "description": "Change your New Tab to a URL or HTML file",
+  "version": "1.2",
+  "description": "Change your New Tab to a URL or HTML path",
   "permissions": ["storage", "tabs"],
   "options_ui": {
     "page": "html/options.html",

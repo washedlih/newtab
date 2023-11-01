@@ -1,3 +1,3 @@
-chrome.storage.local.get(['url'], (result) => {
-  chrome.tabs.update({ url: result.url });
+chrome.storage.local.get(['url']).then(async (result) => {
+  await chrome.tabs.update({ url: result.url });
 });
